@@ -4,10 +4,10 @@ const app = express();
 
 app.use(morgan('dev'));
 
-//variables de express
+// variables de express
 // app.set("nombre", vlor)
 
-//aca van las rutas
+// las rutas
 app.get('/', (req, res) => {
   console.log('hola');
   res.json({
